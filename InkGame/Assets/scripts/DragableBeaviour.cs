@@ -9,33 +9,37 @@ public class DragableBeaviour : MonoBehaviour
     public bool draggable;
     public Vector3 position, offset;
     public UnityEvent startDragEvent, endDragEvent;
-    public ID idObj;
+    
+    public bool isTouchingBoth;
     void Start()
     {
         cameraObj = Camera.main;
     }
 
+    public void YesTouch()
+    {
+        isTouchingBoth = true;
+    }
+    public void NoTouch()
+    {
+        isTouchingBoth = false;
+    }
+
     public IEnumerator OnMouseDown()
     {
-        var tempObj = Collider.GetComponent<IDContainerBehaviour>();
-        
-        if (tempObj == null)
-            yield break;
-        
-        var otherID = tempObj.idObj;
-        if (otherID == idObj)
+        if (isTouchingBoth == true)
         {
             offset = transform.position - cameraObj.ScreenToWorldPoint(Input.mousePosition);
             yield return new WaitForFixedUpdate();
             draggable = true;
             startDragEvent.Invoke();
-        }
-
-        while (draggable)
-        {
-            yield return new WaitForFixedUpdate();
-            position = cameraObj.ScreenToWorldPoint(Input.mousePosition) + offset;
-            transform.position = position;
+            
+            while (draggable)
+            {
+                yield return new WaitForFixedUpdate();
+                position = cameraObj.ScreenToWorldPoint(Input.mousePosition) + offset;
+                transform.position = position;
+            }
         }
     }
 
