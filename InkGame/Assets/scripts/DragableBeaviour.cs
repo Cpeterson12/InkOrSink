@@ -9,6 +9,7 @@ public class DragableBeaviour : MonoBehaviour
     public bool draggable;
     public Vector3 position, offset;
     public UnityEvent startDragEvent, endDragEvent;
+    public ID idObj;
     void Start()
     {
         cameraObj = Camera.main;
@@ -16,11 +17,20 @@ public class DragableBeaviour : MonoBehaviour
 
     public IEnumerator OnMouseDown()
     {
-        offset = transform.position - cameraObj.ScreenToWorldPoint(Input.mousePosition);
-        yield return new WaitForFixedUpdate();
-        draggable = true;
-        startDragEvent.Invoke();
+        var tempObj = Collider.GetComponent<IDContainerBehaviour>();
         
+        if (tempObj == null)
+            yield break;
+        
+        var otherID = tempObj.idObj;
+        if (otherID == idObj)
+        {
+            offset = transform.position - cameraObj.ScreenToWorldPoint(Input.mousePosition);
+            yield return new WaitForFixedUpdate();
+            draggable = true;
+            startDragEvent.Invoke();
+        }
+
         while (draggable)
         {
             yield return new WaitForFixedUpdate();
