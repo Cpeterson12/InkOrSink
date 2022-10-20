@@ -11,7 +11,7 @@ TagManager:
   - Front
   - Water
   - UI
-  - 
+  - Ink
   - Back
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 595096045
+    locked: 0
+  - name: Ink
+    uniqueID: 3707985575
     locked: 0

@@ -8,5 +8,5 @@ public partial class TransformBehaviour : MonoBehaviour
     {
         transform.position = Vector3.zero;
     }
-   
+    
 }
