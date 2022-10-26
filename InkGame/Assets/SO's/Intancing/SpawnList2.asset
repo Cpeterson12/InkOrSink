@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 299eb7e4f8098ed458b419237b37413c, type: 3}
-  m_Name: SpawnList1
+  m_Name: SpawnList2
   m_EditorClassIdentifier: 
   vector3DList:
-  - {fileID: 11400000, guid: b8246be3df2fd0745ac3a1cf3df55d6f, type: 2}
   - {fileID: 11400000, guid: 9f1199c08a605cb42870e71e4f9be514, type: 2}
-  - {fileID: 11400000, guid: 1e9b279fde275cd4d9cf9d028408b1d9, type: 2}
+  - {fileID: 11400000, guid: 7f343d745716d554c8a259d1b27bae5e, type: 2}
