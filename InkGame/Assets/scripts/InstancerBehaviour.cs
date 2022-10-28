@@ -8,11 +8,28 @@ public class InstancerBehaviour : MonoBehaviour
     private int num;
     public Transform playerLoc;
     public float forward = 6.0f;
-
+    private GameObject newInstance;
     public void CreateInstance()
     {
-        Instantiate(prefab, transform.position, transform.rotation);
+        CallForInstance();
+        newInstance = Instantiate(prefab, transform.position, transform.rotation);
         
+    }
+
+    public void CallForInstance()
+    {
+        StartCoroutine(CheckForInstance());
+    }
+    public IEnumerator CheckForInstance()
+    {
+        int inkNumber = GameObject.FindGameObjectsWithTag("Ink").Length;
+        if (inkNumber >= 1)
+        {
+            Destroy(newInstance);
+        }
+
+        yield return null;
+
     }
 
     public void CreateInstance(Vector3Datas obj)

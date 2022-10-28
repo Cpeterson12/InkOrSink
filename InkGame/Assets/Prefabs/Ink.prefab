@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 5583449508804236358}
   - component: {fileID: 5583449508804236359}
   - component: {fileID: 5583449508804236352}
+  - component: {fileID: 3023177933519019242}
   m_Layer: 6
   m_Name: Ink
-  m_TagString: Untagged
+  m_TagString: Ink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,3 +197,16 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3023177933519019242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583449508804236344}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263daf482b65c84439aa1bd365dfa0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 0
