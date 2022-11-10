@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 299eb7e4f8098ed458b419237b37413c, type: 3}
-  m_Name: SpawnList2
+  m_Script: {fileID: 11500000, guid: 5cef3a7a034b41c4db092014d61d1e85, type: 3}
+  m_Name: Timer
   m_EditorClassIdentifier: 
-  vector3DList:
-  - {fileID: 11400000, guid: 5173f36a810a9d64daabfd6d31f60fac, type: 2}
-  - {fileID: 11400000, guid: 6e153eaa09f714e428c4357667fb2ae1, type: 2}
+  value: 5

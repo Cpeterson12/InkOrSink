@@ -17,7 +17,7 @@ public class RidgidBodyBehaviour : MonoBehaviour
 
    void OnEnable()
    {
-      rigidbodyObj.AddForce(Vector3.down * force);
+      rigidbodyObj.AddForce(Vector3.right * force);
    }
 
    void onTriggerEnter(Collider other)
