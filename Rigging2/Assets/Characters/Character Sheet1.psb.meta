@@ -3732,7 +3732,268 @@ ScriptedImporter:
     uvTransform: {x: 679, y: 1232}
     spritePosition: {x: 182, y: 569}
   characterData:
-    bones: []
+    bones:
+    - name: Needle
+      guid: c580b3ac3df64dc4c8bca162d0f1b5d3
+      position: {x: 191.91965, y: 1176.2081, z: 0}
+      rotation: {x: 0, y: 0, z: -0.73264354, w: 0.68061256}
+      length: 467.84207
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278190335
+    - name: f_Shoulder
+      guid: bfaa5e67f0ca2ee489c2893a08ae8f66
+      position: {x: 227.33534, y: 1072.3818, z: 0}
+      rotation: {x: 0, y: 0, z: -0.663998, w: 0.74773437}
+      length: 170.98834
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278255615
+    - name: f_Elbow
+      guid: 628ce13f971a7fc4fa0ec7ce62759cc4
+      position: {x: 170.98834, y: -0.000019671668, z: 0}
+      rotation: {x: 0, y: 0, z: -0.012047295, w: 0.99992746}
+      length: 171.5642
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255360
+    - name: f_Wrist
+      guid: 7dd14230c4457df408e6490d010c4fa3
+      position: {x: 171.56425, y: -0.0000991974, z: 0}
+      rotation: {x: 0, y: 0, z: -0.08153786, w: 0.99667025}
+      length: 58.75675
+      parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 4294967040
+    - name: f_Fingee
+      guid: cc46b9ba4e4df064fa25af637cb73fd2
+      position: {x: 58.756737, y: -0.000022639884, z: 0}
+      rotation: {x: 0, y: 0, z: 0.10566532, w: 0.9944018}
+      length: 66.78098
+      parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 4294901760
+    - name: b_Shoulder
+      guid: 22f0add597b7da3498ea20a3b41eab4a
+      position: {x: 243.86226, y: 1039.0005, z: 0}
+      rotation: {x: 0, y: 0, z: -0.6811835, w: 0.7321127}
+      length: 172.05205
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4294902015
+    - name: b_Elbow
+      guid: f5bdc753c2d23b348aa7d9b7e9946c17
+      position: {x: 172.05206, y: 0.0000023799766, z: 0}
+      rotation: {x: 0, y: 0, z: -0.021229709, w: 0.99977463}
+      length: 149.55688
+      parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 4278223103
+    - name: b_Wrist
+      guid: 23f57fbeee521a2478c7932353bcfcd4
+      position: {x: 149.55682, y: -0.000063716354, z: 0}
+      rotation: {x: 0, y: 0, z: -0.08025899, w: 0.9967741}
+      length: 81.19254
+      parentId: 6
+      color:
+        serializedVersion: 2
+        rgba: 4278255488
+    - name: b_Fingee
+      guid: 807567450bc265745b40990a7f2bbc30
+      position: {x: 81.19256, y: 0.000006730803, z: 0}
+      rotation: {x: 0, y: 0, z: 0.21315788, w: 0.97701776}
+      length: 60.156963
+      parentId: 7
+      color:
+        serializedVersion: 2
+        rgba: 4286643968
+    - name: grass1
+      guid: 721a2781555f85145945f92f587d253a
+      position: {x: 196.43855, y: 896.9959, z: 0}
+      rotation: {x: 0, y: 0, z: -0.6863405, w: 0.72728044}
+      length: 75.93422
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4294934528
+    - name: grass2
+      guid: add3acec84238bd4cbde94d340d20e3f
+      position: {x: 75.93416, y: 0.000016481423, z: 0}
+      rotation: {x: 0, y: -0, z: 0.8492486, w: 0.52799326}
+      length: 70.111786
+      parentId: 9
+      color:
+        serializedVersion: 2
+        rgba: 4294901888
+    - name: grass3
+      guid: e6ab3badfb1d96b4eb8288954f64b333
+      position: {x: 70.11179, y: 0.0000029900766, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3198235, w: 0.9474772}
+      length: 102.136475
+      parentId: 10
+      color:
+        serializedVersion: 2
+        rgba: 4286578943
+    - name: Spine_1
+      guid: ee89fd822d41d134e9812e0a414e2ce3
+      position: {x: 233.68954, y: 750.36884, z: 0}
+      rotation: {x: 0, y: 0, z: 0.69715315, w: 0.7169222}
+      length: 81.471054
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278255615
+    - name: Spine_2
+      guid: 1ccb9beaf6a900046881ba1920ba7e8c
+      position: {x: 81.47106, y: -0.00000050165, z: 0}
+      rotation: {x: 0, y: 0, z: 0.013980117, w: 0.9999023}
+      length: 92.284485
+      parentId: 12
+      color:
+        serializedVersion: 2
+        rgba: 4278255360
+    - name: Spine_3
+      guid: b4c791126d4e04d4d8aec74ef669cdef
+      position: {x: 92.2845, y: -0.0001354387, z: 0}
+      rotation: {x: 0, y: 0, z: -0.0062506683, w: 0.99998045}
+      length: 93.459564
+      parentId: 13
+      color:
+        serializedVersion: 2
+        rgba: 4294967040
+    - name: Spine_4
+      guid: 01e779205fe3c3b4bbe8a64ceebe8389
+      position: {x: 93.45953, y: 0.000022954073, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0197573, w: 0.9998048}
+      length: 86.47487
+      parentId: 14
+      color:
+        serializedVersion: 2
+        rgba: 4294901760
+    - name: Neck_1
+      guid: e12b008096a97ce4bba0e97b5c21df0a
+      position: {x: 86.47489, y: 0.000055318902, z: 0}
+      rotation: {x: 0, y: 0, z: -0.029629663, w: 0.99956095}
+      length: 36.231853
+      parentId: 15
+      color:
+        serializedVersion: 2
+        rgba: 4294902015
+    - name: Neck_2
+      guid: b3184d9269018e042a5a551135d74112
+      position: {x: 36.231853, y: -0.000012262526, z: 0}
+      rotation: {x: 0, y: 0, z: 0.01612504, w: 0.99987006}
+      length: 24.531124
+      parentId: 16
+      color:
+        serializedVersion: 2
+        rgba: 4278190335
+    - name: Head
+      guid: ed6abc65ffccc3e4b9218cdeeb7786ea
+      position: {x: 254.27518, y: 1162.3016, z: 0}
+      rotation: {x: 0, y: 0, z: -0.10571515, w: 0.99439645}
+      length: 44.4874
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278255488
+    - name: L_Lid
+      guid: a0e39b4c9f5912a41a34d7c73566b252
+      position: {x: 281.51602, y: 1202.9388, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7129738, w: 0.7011907}
+      length: 18.239594
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4286643968
+    - name: U_Lid
+      guid: 557696b28e7986640af20c13b63ccfed
+      position: {x: 282.73184, y: 1236.9814, z: 0}
+      rotation: {x: 0, y: 0, z: 0.70027584, w: 0.7138724}
+      length: 15.808343
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4294934528
+    - name: Eye
+      guid: 0ab5d68dcae114f4a8dc3661b45cc76d
+      position: {x: 274.52515, y: 1217.5286, z: 0}
+      rotation: {x: 0, y: 0, z: 0.99987805, w: 0.015619315}
+      length: 19.46239
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4294901888
+    - name: Hat
+      guid: ee6b23fa0420ab148a8abe0f418038e2
+      position: {x: 162.52588, y: 1256.7769, z: 0}
+      rotation: {x: 0, y: 0, z: 0.02349148, w: 0.99972403}
+      length: 155.54909
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4286578943
+    - name: Pelvis
+      guid: c40db8a9a4409c74ab7384044a3f8212
+      position: {x: 244.26779, y: 745.3314, z: 0}
+      rotation: {x: 0, y: 0, z: -0.32213455, w: 0.9466939}
+      length: 114.17087
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278223103
+    - name: f_Hip
+      guid: 25eb865f8ca5cb34f8af87e329344422
+      position: {x: 243.42181, y: 744.5799, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7089334, w: 0.7052754}
+      length: 261.15884
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4294967040
+    - name: f_Knee
+      guid: 5bf6ce4d443f6af4d8f0d41970b28d65
+      position: {x: 261.15884, y: 0.0000019824279, z: 0}
+      rotation: {x: 0, y: 0, z: -0.024114992, w: 0.9997092}
+      length: 298.82935
+      parentId: 24
+      color:
+        serializedVersion: 2
+        rgba: 4294901760
+    - name: f_Ankle
+      guid: 862233889dca13246adb86aa0ea8e0ba
+      position: {x: 298.82935, y: -0.000018625906, z: 0}
+      rotation: {x: 0, y: 0, z: 0.026700774, w: 0.9996435}
+      length: 41.288437
+      parentId: 25
+      color:
+        serializedVersion: 2
+        rgba: 4294902015
+    - name: f_Heel
+      guid: ff049aa7dcdf57e478968db5b47a5df5
+      position: {x: 41.28844, y: 0.00003212163, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6056664, w: 0.79571867}
+      length: 73.98892
+      parentId: 26
+      color:
+        serializedVersion: 2
+        rgba: 4278190335
+    - name: f_Ball
+      guid: c37cc100d292d1e408c85c5a075eba96
+      position: {x: 73.98892, y: -0.000011349017, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1652439, w: 0.9862527}
+      length: 60.17316
+      parentId: 27
+      color:
+        serializedVersion: 2
+        rgba: 4278255615
     parts:
     - spritePosition:
         x: 151

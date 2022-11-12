@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SpawnList3
   m_EditorClassIdentifier: 
   vector3DList:
-  - {fileID: 11400000, guid: b82ed0f913eaecb48b56325d26ddcccb, type: 2}
-  - {fileID: 11400000, guid: 3953563c1f8d51f40b7023bec371a5af, type: 2}
+  - {fileID: 11400000, guid: 16420f3050ea8b1428639ee7f0828e2e, type: 2}
+  - {fileID: 11400000, guid: c2c409e5bf8ee64438e3a2c7ef9b4e27, type: 2}
