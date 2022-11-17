@@ -12,7 +12,7 @@ public class RidgidBodyBehaviour : MonoBehaviour
    void Awake()
    {
       rigidbodyObj = GetComponent<Rigidbody>();
-      gameObject.SetActive (false);
+      gameObject.SetActive (true);
    }
 
    void OnEnable()

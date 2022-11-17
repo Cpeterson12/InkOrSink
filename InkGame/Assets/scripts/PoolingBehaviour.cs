@@ -31,9 +31,31 @@ public class PoolingBehaviour : MonoBehaviour
 
         }
     }
+   
+    IEnumerator BeginPoolii()
+    {
+        wfsObj = new WaitForSeconds(seconds);
+        while (true)
+        {
+            yield return wfsObj;
+            num = Random.Range(0, obj.vector3DList.Count - 1);
+            poolList[randObj].position = obj.vector3DList[num].value;
+             i++;
+             if (i > poolList.Count - 1)
+             {
+                i = 0;
+             }
 
+        }
+    }
+    
     public void ActivatePool()
     {
         StartCoroutine(BeginPool());
+    }
+
+    public void ActivatePoolii()
+    {
+        StartCoroutine(BeginPoolii());
     }
 }
