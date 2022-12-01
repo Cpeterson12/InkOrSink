@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8aa0070dd8d6893479135998bb53cf97, type: 3}
-  m_Name: SpawnPos8
+  m_Name: ShadowZone
   m_EditorClassIdentifier: 
-  value: {x: -22, y: -4, z: 0}
+  value: {x: -670, y: 0, z: 0}

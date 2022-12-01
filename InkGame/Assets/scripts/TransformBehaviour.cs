@@ -4,9 +4,10 @@ using UnityEngine;
 
 public partial class TransformBehaviour : MonoBehaviour
 {
+    public Vector3Datas Position;
     public void ResetToZero()
     {
-        transform.position = Vector3.zero;
+        transform.position = Position.value;
     }
     
 }
