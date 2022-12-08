@@ -28,11 +28,6 @@ public class PoolingBehaviour : MonoBehaviour
             poolList[randObj].position = obj.vector3DList[num].value;
             poolList[randObj].gameObject.SetActive(true);
             yield return wfsObj;
-           // i++;
-           // if (i > poolList.Count - 1)
-           // {
-            //    i = 0;
-           // }
 
         }
     }

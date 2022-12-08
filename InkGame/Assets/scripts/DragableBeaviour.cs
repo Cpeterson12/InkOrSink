@@ -8,7 +8,7 @@ public class DragableBeaviour : MonoBehaviour
     private Camera cameraObj;
     public bool draggable;
     public Vector3 position, offset;
-    public UnityEvent startDragEvent, endDragEvent;
+    public UnityEvent startDragEvent, endDragEvent, onClickEvent;
     
     public bool isTouchingBoth;
     void Start()
@@ -27,6 +27,7 @@ public class DragableBeaviour : MonoBehaviour
 
     public IEnumerator OnMouseDown()
     {
+        onClickEvent.Invoke();
         if (isTouchingBoth == true)
         {
             offset = transform.position - cameraObj.ScreenToWorldPoint(Input.mousePosition);
